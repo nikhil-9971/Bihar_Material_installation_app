@@ -24,9 +24,9 @@
   <body class="p-3 mb-2 bg-primary-subtle text-emphasis-primary ">
     <div class="container min-vh-100 d-flex justify-content-center align-items-center">
      
-      <form class="row g-2 " method="post" action="https://script.google.com/macros/s/AKfycbyTrWUhAARjKJhzLlGeIIHHaPCfv9BvVXQz_k3obXfP6rJD2CB-2K3osK8C08-3VoUI/exec">
+      <form class="row g-2 " method="post" action="https://script.google.com/macros/s/AKfycbz2hxdP2jat_d_Jlhnz6z8Pw_PwNrb5u07tIeHo5f1VH3B-Vr_HUUwYXd04nMT29SN9/exec">
         <Marquee><h2>Everyone Please mentioned all material which installed at site 😀</h2></Marquee>
-        <h1 class="card-header">Fill site visit details | Material Installation :</h1>
+        <h1 class="card-header">Fill site visit details :</h1>
         <div class="col-md-2 ">
           <label for="rocode" class="form-label">Ro Code :</label>
           <input type="number" class="form-control" id="rocode" name="ROCODE" placeholder="@14387560"  maxlength="8" required>
@@ -111,6 +111,8 @@
             <select id="blackrubber" class="form-select" name="BLACK_RUBBER_STATUS" required>
               <option value="" disabled  selected>Black Rubber use Qty .</option>
                <option>No</option>
+               <option>0</option>
+               <option>1</option>
               <option>2</option>
             </select>
           </div>
@@ -160,6 +162,13 @@
               <option>8</option>
             </select>
           </div>
+
+          <!-- Reason Behind DU offline -->
+
+        <div class="col-md-6">
+          <label for="DUREMARK" class="form-label">Reason Behind DU offline (If any) :</label>
+          <input type="text" class="form-control" id="DUREMARK" name="DUremark" placeholder="@Midco DU control Card issue" required>
+        </div>
 
       <!-- Ph-11 slave qty-->
       <div class="col-md-3">
