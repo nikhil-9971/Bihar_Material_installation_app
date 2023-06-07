@@ -4,6 +4,12 @@ roname.addEventListener("input", () => {
   roname.value = roname.value.toUpperCase();
 });
 
+const duremark = document.getElementById("DUREMARK");
+
+duremark.addEventListener("input", () => {
+  duremark.value = duremark.value.toUpperCase();
+});
+
 const atgproberequirment = document.getElementById("atgproberequirment");
 
 atgproberequirment.addEventListener("input", () => {
